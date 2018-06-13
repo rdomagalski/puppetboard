@@ -46,7 +46,19 @@ INVENTORY_FACTS = [('Hostname', 'fqdn'),
                    ('OS', 'lsbdistdescription'),
                    ('Architecture', 'hardwaremodel'),
                    ('Kernel Version', 'kernelrelease'),
-                   ('Puppet Version', 'puppetversion'), ]
+                   ('Puppet Version', 'puppetversion'),
+                   ('Virtual', 'virtual'),
+                   ('Uptime (days)', 'uptime_days'),
+                   ('SELinux', 'selinux'),
+                   ('Processors', 'processorcount'),
+                   ('Physical processors', 'physicalprocessorcount'),
+                   ('OS Family ', 'osfamily '),
+                   ('OS Release', 'operatingsystemrelease'),
+                   ('RAM size', 'memorysize'),
+                   ('RAM free', 'memoryfree'),
+                   ('Load average', 'load_averages '),
+                   ('Kernel', 'kernelversion'),
+                   ('agent_specified_environment', 'agent_specified_environment'), ]
 REFRESH_RATE = 30
 DAILY_REPORTS_CHART_ENABLED = True
 DAILY_REPORTS_CHART_DAYS = 8
